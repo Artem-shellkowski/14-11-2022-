@@ -10,7 +10,7 @@ int  main()
 	int mas[a];
 	srand(time(nullptr));
 	for (int i = 0; i < a; i++) {
-		mas[i] = rand() % 6 - 5;
+		mas[i] = rand() % 11 - 5;
 		sum += mas[i];
 	}
 	cout << sum << endl;
@@ -29,7 +29,7 @@ int  main()
 	int mas[a];
 	srand(time(nullptr));
 	for (int i = 0; i < a; i++) {
-		mas[i] = rand() % 13 - 12;
+		mas[i] = rand() % 25 - 12;
 		if(mas[i] < 0)
 		sum += mas[i];
 	}
